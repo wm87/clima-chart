@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Klimakarte</title>
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Leaflet core -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- MarkerCluster -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <!-- Leaflet Plugins -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-graphicscale/dist/Leaflet.GraphicScale.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-graphicscale/dist/Leaflet.GraphicScale.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-mouse-position@1.0.3/src/L.Control.MousePosition.css" />
+    <script src="https://unpkg.com/leaflet-mouse-position@1.0.3/src/L.Control.MousePosition.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.zoomhome@1.0.0/src/css/leaflet.zoomhome.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.zoomhome@1.0.0/dist/leaflet.zoomhome.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@2.2.0/Control.FullScreen.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.fullscreen@2.2.0/Control.FullScreen.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-hash@0.2.1/leaflet-hash.min.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Dein Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Dein Projekt-JS -->
+    <script src="js/ConvKlimaStat.js"></script>
+    <script src="js/array4DataNames.js"></script>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="status"></div>
+    <div id="container">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- Modul-Skripte -->
+    <script src="js/mapInit.js"></script>
+    <script src="js/chartHandler.js"></script>
+    <script src="js/stationHandlers.js"></script>
+</body>
+
+</html>
