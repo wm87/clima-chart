@@ -87,3 +87,11 @@ Die verwendeten Klimadaten stammen aus dem Open Data Portal des DWD:
             ├── mapInit.js
             └── stationHandlers.js
 ```
+
+## 📦 Datenquellen & Lizenzhinweise
+
+Dieses Projekt verwendet meteorologische Geodaten des Deutschen Wetterdienstes (DWD), die unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) bereitgestellt werden.
+
+Quelle: Deutscher Wetterdienst (DWD), https://www.dwd.de  
+Lizenz: Creative Commons Namensnennung 4.0 International (CC BY 4.0)  
+→ Diese Daten sind **nicht** unter der MIT/Apache-2.0-Lizenz dieses Projekts lizenziert.
